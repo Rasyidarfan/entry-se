@@ -233,7 +233,7 @@ async function getVisibleAssignmentsFor(user) {
   return rows.filter((row) => scopes.some((scope) => String(row.region_fullcode || '').startsWith(scope)));
 }
 
-function serialiseAssignment(req, row) {
+async function serialiseAssignment(req, row) {
   const predefined = parseObject(row.predefined, {});
   const respondent_token = row.respondent_token || randomUUID();
   const link = buildAssignmentLink(req, respondent_token);
@@ -242,7 +242,7 @@ function serialiseAssignment(req, row) {
     predefined,
     respondent_token,
     respondent_link: link,
-    qr_url: generateQrDataUrl(link),
+    qr_url: await generateQrDataUrl(link),
     pin_is_set: !!row.respondent_pin_hash && !row.pin_reset_required,
   };
 }
@@ -456,7 +456,7 @@ router.post('/assignments', requireUser, requireAdmin, asyncHandler(async (req, 
   );
   await insertAudit(req.user.id, 'create_assignment', 'assignment', id, body);
   const assignment = await queryOne('SELECT * FROM assignments WHERE id = ?', [id]);
-  res.status(201).json({ assignment: serialiseAssignment(req, assignment) });
+  res.status(201).json({ assignment: await serialiseAssignment(req, assignment) });
 }));
 
 router.patch('/assignments/:id', requireUser, requireAdmin, asyncHandler(async (req, res) => {
@@ -511,7 +511,7 @@ router.patch('/assignments/:id', requireUser, requireAdmin, asyncHandler(async (
   );
   await insertAudit(req.user.id, 'update_assignment', 'assignment', req.params.id, body);
   const assignment = await queryOne('SELECT * FROM assignments WHERE id = ?', [req.params.id]);
-  res.json({ assignment: serialiseAssignment(req, assignment) });
+  res.json({ assignment: await serialiseAssignment(req, assignment) });
 }));
 
 router.delete('/assignments/:id', requireUser, requireAdmin, asyncHandler(async (req, res) => {
@@ -526,13 +526,13 @@ router.get('/assignments/:id', requireUser, asyncHandler(async (req, res) => {
   const rows = await getVisibleAssignmentsFor(req.user);
   const assignment = rows.find((row) => row.id === req.params.id);
   if (!assignment) throw httpError(404, 'ASSIGNMENT_NOT_FOUND', 'Assignment tidak ditemukan.');
-  res.json({ assignment: serialiseAssignment(req, assignment) });
+  res.json({ assignment: await serialiseAssignment(req, assignment) });
 }));
 
 router.get('/assignments/:id/access', requireUser, requireAdmin, asyncHandler(async (req, res) => {
   const assignment = await queryOne('SELECT * FROM assignments WHERE id = ?', [req.params.id]);
   if (!assignment) throw httpError(404, 'ASSIGNMENT_NOT_FOUND', 'Assignment tidak ditemukan.');
-  const payload = serialiseAssignment(req, assignment);
+  const payload = await serialiseAssignment(req, assignment);
   res.json({
     assignment: payload,
     print: {
