@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f47b20" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <title>Data — SENSUS EKONOMI 2026</title>
+  <link rel="stylesheet" href="/styles.css?v=12" />
+  <link rel="stylesheet" href="/data.css?v=12" />
+</head>
+<body>
+  <!-- Top application bar (FASIH chrome) -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <span class="brand-mark">F</span>
+      <span class="crumb muted">Surveys</span>
+      <span class="crumb-sep">/</span>
+      <span class="crumb">SENSUS EKONOMI 2026</span>
+      <span class="crumb-chip">DATA</span>
+    </div>
+    <div class="topbar-right">
+      <span id="userBadge" class="user-badge"></span>
+      <button id="usersBtn" class="btn-ghost admin-only" hidden>Kelola User</button>
+      <button id="logoutBtn" class="btn-ghost">Keluar</button>
+    </div>
+  </header>
+
+  <main class="data-main">
+    <!-- Toolbar -->
+    <div class="data-toolbar">
+      <div class="dt-left">
+        <span id="totalChip" class="total-chip">0 SEMUA</span>
+        <select id="statusFilter" class="dt-select">
+          <option value="">Status Assignment</option>
+          <option value="open">Open</option>
+          <option value="progress">Progress</option>
+          <option value="done">Done</option>
+          <option value="clean">Clean</option>
+          <option value="error">Error</option>
+        </select>
+        <select id="typeFilter" class="dt-select">
+          <option value="">Tipe: Semua</option>
+          <option value="keluarga">Keluarga</option>
+          <option value="usaha">Usaha</option>
+        </select>
+      </div>
+      <div class="dt-right">
+        <input id="searchInput" class="dt-search" placeholder="Cari nama / kode…" />
+        <button id="addAssignmentBtn" class="lf-btn sm admin-only" hidden>+ Assignment</button>
+        <button id="refreshBtn" class="btn-icon" title="Muat ulang">⟳</button>
+        <!-- Tombol toggle filter hanya muncul di mobile (lihat data.css). -->
+        <button id="filterToggle" class="btn-icon filter-toggle" title="Filter Wilayah">⛃</button>
+      </div>
+    </div>
+
+    <!-- Status count chips -->
+    <div id="countChips" class="count-chips"></div>
+
+    <!-- Filter Wilayah: di desktop tampil sebagai kolom kiri (di dalam data-body).
+         Di mobile muncul sebagai drawer dari atas via .open class. -->
+    <div id="filterOverlay" class="filter-overlay"></div>
+    <aside id="filterPanel" class="filter-panel">
+      <div class="fp-head">
+        Filter Wilayah
+        <button id="fpClose" class="fp-close">✕</button>
+      </div>
+      <label class="fp-label">PROVINSI
+        <select id="fwProv" class="fp-select" data-level="prov"></select>
+      </label>
+      <label class="fp-label">KABUPATEN/KOTA
+        <select id="fwKab" class="fp-select" data-level="kab" disabled></select>
+      </label>
+      <label class="fp-label">KECAMATAN
+        <select id="fwKec" class="fp-select" data-level="kec" disabled></select>
+      </label>
+      <label class="fp-label">DESA
+        <select id="fwDesa" class="fp-select" data-level="desa" disabled></select>
+      </label>
+      <label class="fp-label">SLS
+        <select id="fwSls" class="fp-select" data-level="sls" disabled></select>
+      </label>
+      <label class="fp-label">SUB-SLS
+        <select id="fwSubsls" class="fp-select" data-level="subsls" disabled></select>
+      </label>
+      <div class="fp-actions">
+        <button id="fpReset" class="btn-ghost">Reset</button>
+        <button id="fpApply" class="lf-btn sm">Terapkan</button>
+      </div>
+    </aside>
+
+    <div class="data-body">
+      <!-- Listing table (desktop) / cards (mobile) -->
+      <section class="data-table-wrap">
+        <!-- Desktop table -->
+        <table class="data-table dt-desktop">
+          <thead>
+            <tr>
+              <th>Kode Identitas</th>
+              <th>Nama Keluarga/Bangunan/Usaha</th>
+              <th>Alamat Prelist</th>
+              <th>Nomor Urut Bangunan/IDSBR</th>
+              <th>NIB</th>
+              <th>Email</th>
+              <th>Status</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="dataRows">
+            <tr><td colspan="8" class="dt-loading">Memuat…</td></tr>
+          </tbody>
+        </table>
+
+        <!-- Mobile card list -->
+        <div id="mobileCards" class="mc-list">
+          <div class="mc-empty">Memuat…</div>
+        </div>
+
+        <div class="data-pager">
+          <button id="prevPage" class="btn-ghost">‹ Sebelumnya</button>
+          <span id="pageInfo" class="page-info"></span>
+          <button id="nextPage" class="btn-ghost">Berikutnya ›</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ── Modal: Tambah Assignment (admin) ──────────────────────────────────── -->
+  <div id="assignModal" class="modal-backdrop" hidden>
+    <div class="modal modal-form">
+      <div class="modal-head">
+        <h2 id="assignModalTitle">Tambah Assignment</h2>
+        <button class="modal-close" data-close="assignModal">✕</button>
+      </div>
+      <form id="assignForm" class="m-form">
+        <input type="hidden" id="aId" />
+        <label class="lf-label">Tipe Assignment
+          <select id="aPrelistType" class="lf-input">
+            <option value="keluarga">Keluarga</option>
+            <option value="usaha">Usaha</option>
+          </select>
+        </label>
+        <label id="aNamaLabel" class="lf-label">Nama Kepala Keluarga
+          <input id="aNama" class="lf-input" required />
+        </label>
+        <label class="lf-label">Nomor Urut Bangunan
+          <input id="aNomor" class="lf-input" />
+        </label>
+
+        <div class="fp-divider"></div>
+        <div class="uf-title">Wilayah (pilih berjenjang sampai SLS/Sub-SLS)</div>
+        <label class="lf-label">PROVINSI
+          <select id="arProv" class="lf-input ar-region" data-idx="0"></select>
+        </label>
+        <label class="lf-label">KABUPATEN/KOTA
+          <select id="arKab" class="lf-input ar-region" data-idx="1" disabled></select>
+        </label>
+        <label class="lf-label">KECAMATAN
+          <select id="arKec" class="lf-input ar-region" data-idx="2" disabled></select>
+        </label>
+        <label class="lf-label">DESA
+          <select id="arDesa" class="lf-input ar-region" data-idx="3" disabled></select>
+        </label>
+        <label class="lf-label">SLS
+          <select id="arSls" class="lf-input ar-region" data-idx="4" disabled></select>
+        </label>
+        <label class="lf-label">SUB-SLS (opsional)
+          <select id="arSubsls" class="lf-input ar-region" data-idx="5" disabled></select>
+        </label>
+
+        <div id="assignError" class="lf-error" hidden></div>
+        <div class="m-actions">
+          <button type="button" class="btn-ghost" data-close="assignModal">Batal</button>
+          <button type="submit" class="lf-btn sm">Simpan</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ── Modal: Kelola User (admin) ────────────────────────────────────────── -->
+  <div id="usersModal" class="modal-backdrop" hidden>
+    <div class="modal modal-wide">
+      <div class="modal-head">
+        <h2>Kelola User</h2>
+        <button class="modal-close" data-close="usersModal">✕</button>
+      </div>
+
+      <div class="users-layout">
+        <!-- daftar user -->
+        <div class="users-list-wrap">
+          <table class="data-table compact">
+            <thead><tr><th>Username</th><th>Nama</th><th>Role</th><th>Aktif</th><th></th></tr></thead>
+            <tbody id="usersRows"><tr><td colspan="5" class="dt-loading">Memuat…</td></tr></tbody>
+          </table>
+        </div>
+
+        <!-- form buat / edit user -->
+        <form id="userForm" class="m-form user-form">
+          <div class="uf-title" id="userFormTitle">Buat User Baru</div>
+          <input type="hidden" id="uId" />
+          <label class="lf-label">Username
+            <input id="uUsername" class="lf-input" required />
+          </label>
+          <label class="lf-label">Nama Lengkap
+            <input id="uFullname" class="lf-input" />
+          </label>
+          <label class="lf-label">Email
+            <input id="uEmail" type="email" class="lf-input" />
+          </label>
+          <label class="lf-label">Role
+            <select id="uRole" class="lf-input">
+              <option value="mitra">mitra (read-only)</option>
+              <option value="admin">admin</option>
+            </select>
+          </label>
+          <label class="lf-label"><span id="uPwLabel">Password</span>
+            <input id="uPassword" type="password" class="lf-input" placeholder="Kosongkan = tidak diubah" />
+          </label>
+          <label class="lf-check"><input type="checkbox" id="uActive" checked /> Aktif</label>
+          <div class="uf-title">Wilayah Tugas</div>
+          <div id="userRegionTree" class="region-tree">
+            <div class="dt-loading">Memuat hierarki wilayah…</div>
+          </div>
+          <div id="userError" class="lf-error" hidden></div>
+          <div class="m-actions">
+            <button type="button" id="userResetBtn" class="btn-ghost">Reset Form</button>
+            <button type="submit" class="lf-btn sm">Simpan</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="accessModal" class="modal-backdrop" hidden>
+    <div class="modal modal-form">
+      <div class="modal-head">
+        <h2>Akses Responden</h2>
+        <button class="modal-close" data-close="accessModal">✕</button>
+      </div>
+      <div class="m-form">
+        <label class="lf-label">Tautan unik
+          <input id="accessLink" class="lf-input" readonly />
+        </label>
+        <div class="qr-wrap">
+          <img id="accessQr" alt="QR responden" style="max-width: 240px; width: 100%; border: 1px solid #ddd; border-radius: 12px; background: #fff;" />
+        </div>
+        <p class="modal-sub" id="accessInfo">Responden membuat PIN 6 digit saat pertama kali membuka tautan ini.</p>
+        <div class="m-actions">
+          <button type="button" id="copyAccessBtn" class="btn-ghost">Salin Link</button>
+          <button type="button" id="printAccessBtn" class="btn-ghost">Cetak 50 mm</button>
+          <button type="button" id="resetPinBtn" class="lf-btn sm">Reset PIN</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/auth-client.js?v=10"></script>
+  <script src="/data.js?v=12"></script>
+</body>
+</html>

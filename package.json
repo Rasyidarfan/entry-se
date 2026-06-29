@@ -1,0 +1,23 @@
+{
+  "name": "se2026-entry",
+  "version": "1.0.0",
+  "description": "Backend + UI entri kuesioner SENSUS EKONOMI 2026 (FASIH-style) — Express + MySQL",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "migrate": "node migrations/migrate.js",
+    "seed": "node migrations/seed.js",
+    "import:prelist": "node migrations/import_prelist.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "better-sqlite3": "^11.0.0"
+  }
+}

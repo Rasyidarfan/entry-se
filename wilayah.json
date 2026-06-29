@@ -1,0 +1,1792 @@
+[
+  {
+    "kdkab": "02",
+    "kdkec": "050",
+    "nmkec": "NAPUA",
+    "kddesa": "001",
+    "nmdesa": "NAPUA",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "NAPUA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "050",
+    "nmkec": "NAPUA",
+    "kddesa": "002",
+    "nmdesa": "LANI MATUAN",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "LANI MATUAN"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "050",
+    "nmkec": "NAPUA",
+    "kddesa": "003",
+    "nmdesa": "YELEKAMA",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "YELEKAMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "050",
+    "nmkec": "NAPUA",
+    "kddesa": "004",
+    "nmdesa": "SAPALEK",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "SAPALEK"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "050",
+    "nmkec": "NAPUA",
+    "kddesa": "005",
+    "nmdesa": "HAELEKMA",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "HAELEKMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "050",
+    "nmkec": "NAPUA",
+    "kddesa": "006",
+    "nmdesa": "OKILIK",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "OKILIK"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "050",
+    "nmkec": "NAPUA",
+    "kddesa": "007",
+    "nmdesa": "HOLIMA",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "HOLIMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "050",
+    "nmkec": "NAPUA",
+    "kddesa": "008",
+    "nmdesa": "WILEKAMA/SAWAREK",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "WILEKAMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "050",
+    "nmkec": "NAPUA",
+    "kddesa": "009",
+    "nmdesa": "YOMAIMA",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "YOMAIMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "060",
+    "nmkec": "WALAIK",
+    "kddesa": "001",
+    "nmdesa": "WALAIK",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "WALAIK"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "060",
+    "nmkec": "WALAIK",
+    "kddesa": "002",
+    "nmdesa": "ELAREK",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "ELAREK"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "060",
+    "nmkec": "WALAIK",
+    "kddesa": "003",
+    "nmdesa": "WELEKAMA",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "WELEKAMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "060",
+    "nmkec": "WALAIK",
+    "kddesa": "004",
+    "nmdesa": "HOLIMA",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "HOLIMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "060",
+    "nmkec": "WALAIK",
+    "kddesa": "005",
+    "nmdesa": "YELAI",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "YELAI"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "120",
+    "nmkec": "PELEBAGA",
+    "kddesa": "001",
+    "nmdesa": "FILIA",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "FILIA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "120",
+    "nmkec": "PELEBAGA",
+    "kddesa": "002",
+    "nmdesa": "ISUGUNIK",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "ISUGUNIK"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "120",
+    "nmkec": "PELEBAGA",
+    "kddesa": "003",
+    "nmdesa": "WITALAK",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "WITALAK"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "120",
+    "nmkec": "PELEBAGA",
+    "kddesa": "004",
+    "nmdesa": "MULUKMO",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "MULUKMO"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "120",
+    "nmkec": "PELEBAGA",
+    "kddesa": "005",
+    "nmdesa": "ALEAK",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "ALEAK"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "120",
+    "nmkec": "PELEBAGA",
+    "kddesa": "006",
+    "nmdesa": "INANEKELOK",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "INANEKELOK"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "120",
+    "nmkec": "PELEBAGA",
+    "kddesa": "008",
+    "nmdesa": "WILILIMO",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "WILILIMO"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "120",
+    "nmkec": "PELEBAGA",
+    "kddesa": "009",
+    "nmdesa": "YABEM",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "YABEM"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "120",
+    "nmkec": "PELEBAGA",
+    "kddesa": "010",
+    "nmdesa": "NUKAHILAPOK",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "NUKAHILAPOK"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "120",
+    "nmkec": "PELEBAGA",
+    "kddesa": "011",
+    "nmdesa": "LANDIA",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "LANDIA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "120",
+    "nmkec": "PELEBAGA",
+    "kddesa": "012",
+    "nmdesa": "DUABALEK",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "DUABALEK"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "120",
+    "nmkec": "PELEBAGA",
+    "kddesa": "013",
+    "nmdesa": "HITELOWA",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "HITELOWA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "130",
+    "nmkec": "IBELE",
+    "kddesa": "001",
+    "nmdesa": "HABEMA",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "HABEMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "130",
+    "nmkec": "IBELE",
+    "kddesa": "002",
+    "nmdesa": "AYUBAIBUR",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "AYUBAIBUR"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "130",
+    "nmkec": "IBELE",
+    "kddesa": "003",
+    "nmdesa": "TIPALOK",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "TIPALOK"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "130",
+    "nmkec": "IBELE",
+    "kddesa": "004",
+    "nmdesa": "YAGAROBAK",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "YAGAROBAK"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "130",
+    "nmkec": "IBELE",
+    "kddesa": "005",
+    "nmdesa": "IBELE",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "IBELE"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "130",
+    "nmkec": "IBELE",
+    "kddesa": "006",
+    "nmdesa": "ZAPMA",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "ZAPMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "130",
+    "nmkec": "IBELE",
+    "kddesa": "007",
+    "nmdesa": "HOLALIBA",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "HOLALIBA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "130",
+    "nmkec": "IBELE",
+    "kddesa": "008",
+    "nmdesa": "ZINAI",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "ZINAI"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "130",
+    "nmkec": "IBELE",
+    "kddesa": "009",
+    "nmdesa": "YOKALPALEK",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "YOKALPALEK"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "130",
+    "nmkec": "IBELE",
+    "kddesa": "010",
+    "nmdesa": "YELEBAREK",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "YELEBAREK"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "210",
+    "nmkec": "WAME",
+    "kddesa": "001",
+    "nmdesa": "DOGONAME",
+    "kdsls": "0001",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN DOGONAME"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "210",
+    "nmkec": "WAME",
+    "kddesa": "001",
+    "nmdesa": "DOGONAME",
+    "kdsls": "0002",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN TIBUME"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "210",
+    "nmkec": "WAME",
+    "kddesa": "001",
+    "nmdesa": "DOGONAME",
+    "kdsls": "0003",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN WORAGAME"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "210",
+    "nmkec": "WAME",
+    "kddesa": "002",
+    "nmdesa": "YANENGGAME",
+    "kdsls": "0001",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN YANENGGA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "210",
+    "nmkec": "WAME",
+    "kddesa": "002",
+    "nmdesa": "YANENGGAME",
+    "kdsls": "0002",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN PURUBAGA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "210",
+    "nmkec": "WAME",
+    "kddesa": "002",
+    "nmdesa": "YANENGGAME",
+    "kdsls": "0003",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN JIGIRALE"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "210",
+    "nmkec": "WAME",
+    "kddesa": "002",
+    "nmdesa": "YANENGGAME",
+    "kdsls": "0004",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN DUMAPAGA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "210",
+    "nmkec": "WAME",
+    "kddesa": "003",
+    "nmdesa": "DUMAPAGA",
+    "kdsls": "0001",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN DUMAPAGA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "210",
+    "nmkec": "WAME",
+    "kddesa": "003",
+    "nmdesa": "DUMAPAGA",
+    "kdsls": "0002",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN YAGAPAK"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "210",
+    "nmkec": "WAME",
+    "kddesa": "003",
+    "nmdesa": "DUMAPAGA",
+    "kdsls": "0003",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN MELEMANGKEN"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "210",
+    "nmkec": "WAME",
+    "kddesa": "003",
+    "nmdesa": "DUMAPAGA",
+    "kdsls": "0004",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN YIGIRALE"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "210",
+    "nmkec": "WAME",
+    "kddesa": "004",
+    "nmdesa": "WAME",
+    "kdsls": "0001",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN PIRKAME"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "210",
+    "nmkec": "WAME",
+    "kddesa": "004",
+    "nmdesa": "WAME",
+    "kdsls": "0002",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN WENAWAME"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "210",
+    "nmkec": "WAME",
+    "kddesa": "004",
+    "nmdesa": "WAME",
+    "kdsls": "0003",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN YIBAME"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "001",
+    "nmdesa": "TONGRIK/YINAGA",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "TONGKRIK"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "002",
+    "nmdesa": "YAGABUR",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "YAGABUR"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "002",
+    "nmdesa": "YAGABUR",
+    "kdsls": "2002",
+    "kdsubsls": "00",
+    "nmsls": "HUTAN"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "003",
+    "nmdesa": "TARI",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "TARI"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "004",
+    "nmdesa": "GELORA",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "GELORA"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "005",
+    "nmdesa": "UGANDA",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "UGANDA"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "006",
+    "nmdesa": "BINIME",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "BINIME 1"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "006",
+    "nmdesa": "BINIME",
+    "kdsls": "2002",
+    "kdsubsls": "00",
+    "nmsls": "BINIME 2"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "007",
+    "nmdesa": "TIKAPURA",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "TIKAPURA 1"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "007",
+    "nmdesa": "TIKAPURA",
+    "kdsls": "2002",
+    "kdsubsls": "00",
+    "nmsls": "TIKAPURA 2"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "008",
+    "nmdesa": "TIMERIA",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "TIMERIA"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "009",
+    "nmdesa": "ONGGOBALO/GWIPU",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "ONGGOBALO/GWIPU"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "010",
+    "nmdesa": "MABUNA",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "MABUNA"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "011",
+    "nmdesa": "DIBUNGGEN",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "DIBUNGGEN"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "013",
+    "nmdesa": "KAMBO",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "KAMBO"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "014",
+    "nmdesa": "DOGOBAK",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "DOGOBAK"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "015",
+    "nmdesa": "PELANME",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "PELANME"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "016",
+    "nmdesa": "KINDOK",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "KINDOK 1"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "016",
+    "nmdesa": "KINDOK",
+    "kdsls": "2002",
+    "kdsubsls": "00",
+    "nmsls": "KINDOK 2"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "017",
+    "nmdesa": "YALONGGOLO",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "YALONGGOLO 1"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "017",
+    "nmdesa": "YALONGGOLO",
+    "kdsls": "2002",
+    "kdsubsls": "00",
+    "nmsls": "YALONGGOLO 2"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "017",
+    "nmdesa": "YALONGGOLO",
+    "kdsls": "2003",
+    "kdsubsls": "00",
+    "nmsls": "HUTAN"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "018",
+    "nmdesa": "KUMBU",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "KUMBU"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "030",
+    "nmkec": "KELILA",
+    "kddesa": "019",
+    "nmdesa": "APALO",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "APALO"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "001",
+    "nmdesa": "MOGONIK",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "MOGONIK"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "002",
+    "nmdesa": "KINO",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "KINO"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "003",
+    "nmdesa": "AYEKI",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "AYEKI"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "004",
+    "nmdesa": "MOLOGI",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "MOLAGI"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "005",
+    "nmdesa": "YABENDILI",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "YABENDILI"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "006",
+    "nmdesa": "WINIMA",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "WINIMA 1"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "007",
+    "nmdesa": "ARSBOL",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "ARSBOL"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "008",
+    "nmdesa": "WANILOK/YELAM",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "WANILOK/YELAM"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "009",
+    "nmdesa": "PAGALE",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "PAGALE"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "009",
+    "nmdesa": "PAGALE",
+    "kdsls": "2002",
+    "kdsubsls": "00",
+    "nmsls": "HUTAN"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "010",
+    "nmdesa": "ENGGAIMA",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "ENGGAIMA"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "010",
+    "nmdesa": "ENGGAIMA",
+    "kdsls": "2002",
+    "kdsubsls": "00",
+    "nmsls": "HUTAN"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "011",
+    "nmdesa": "ENGGAMA",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "ENGGAMA"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "011",
+    "nmdesa": "ENGGAMA",
+    "kdsls": "2002",
+    "kdsubsls": "00",
+    "nmsls": "HUTAN"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "012",
+    "nmdesa": "WINAM",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "WINAM"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "013",
+    "nmdesa": "KUGAP",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "KUGAP"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "014",
+    "nmdesa": "ERAGEAM",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "EERAGEAM 1"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "014",
+    "nmdesa": "ERAGEAM",
+    "kdsls": "2002",
+    "kdsubsls": "00",
+    "nmsls": "ERAGEAM 2"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "015",
+    "nmdesa": "WURIGELEBUR",
+    "kdsls": "2001",
+    "kdsubsls": "00",
+    "nmsls": "WURIGELABUR"
+  },
+  {
+    "kdkab": "05",
+    "kdkec": "040",
+    "nmkec": "ERAGAYAM",
+    "kddesa": "015",
+    "nmdesa": "WURIGELEBUR",
+    "kdsls": "2002",
+    "kdsubsls": "00",
+    "nmsls": "HUTAN"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "001",
+    "nmdesa": "LANTIPO",
+    "kdsls": "0001",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN MENOKAROMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "001",
+    "nmdesa": "LANTIPO",
+    "kdsls": "0002",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN HULEKAMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "001",
+    "nmdesa": "LANTIPO",
+    "kdsls": "0003",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN SILIMO"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "001",
+    "nmdesa": "LANTIPO",
+    "kdsls": "0004",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN YOMAGAIMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "002",
+    "nmdesa": "WAMAROMA",
+    "kdsls": "0001",
+    "kdsubsls": "00",
+    "nmsls": "RT 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "002",
+    "nmdesa": "WAMAROMA",
+    "kdsls": "0002",
+    "kdsubsls": "00",
+    "nmsls": "RT 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "002",
+    "nmdesa": "WAMAROMA",
+    "kdsls": "0003",
+    "kdsubsls": "00",
+    "nmsls": "RT 003"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "002",
+    "nmdesa": "WAMAROMA",
+    "kdsls": "0004",
+    "kdsubsls": "00",
+    "nmsls": "RT 004"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0001",
+    "kdsubsls": "01",
+    "nmsls": "RT 01 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0001",
+    "kdsubsls": "02",
+    "nmsls": "RT 01 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0001",
+    "kdsubsls": "03",
+    "nmsls": "RT 01 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0002",
+    "kdsubsls": "00",
+    "nmsls": "RT 02 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0003",
+    "kdsubsls": "00",
+    "nmsls": "RT 03 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0004",
+    "kdsubsls": "00",
+    "nmsls": "RT 01 RW 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0005",
+    "kdsubsls": "00",
+    "nmsls": "RT 02 RW 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0006",
+    "kdsubsls": "00",
+    "nmsls": "RT 03 RW 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0008",
+    "kdsubsls": "01",
+    "nmsls": "RT 01 RW 003"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0008",
+    "kdsubsls": "02",
+    "nmsls": "RT 01 RW 003"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0009",
+    "kdsubsls": "01",
+    "nmsls": "RT 02 RW 003"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0009",
+    "kdsubsls": "02",
+    "nmsls": "RT 02 RW 003"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0010",
+    "kdsubsls": "00",
+    "nmsls": "RT 03 RW 003"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0011",
+    "kdsubsls": "00",
+    "nmsls": "RT 01 RW 004"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0012",
+    "kdsubsls": "01",
+    "nmsls": "RT 02 RW 004"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0012",
+    "kdsubsls": "02",
+    "nmsls": "RT 02 RW 004"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0013",
+    "kdsubsls": "01",
+    "nmsls": "RT 03 RW 004"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0013",
+    "kdsubsls": "02",
+    "nmsls": "RT 03 RW 004"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0014",
+    "kdsubsls": "00",
+    "nmsls": "RT 01 RW 005"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0015",
+    "kdsubsls": "00",
+    "nmsls": "RT 02 RW 005"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "003",
+    "nmdesa": "WAMENA KOTA",
+    "kdsls": "0016",
+    "kdsubsls": "00",
+    "nmsls": "RT 03 RW 005"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "004",
+    "nmdesa": "AUTAKMA",
+    "kdsls": "0001",
+    "kdsubsls": "00",
+    "nmsls": "RT 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "004",
+    "nmdesa": "AUTAKMA",
+    "kdsls": "0002",
+    "kdsubsls": "00",
+    "nmsls": "RT 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "004",
+    "nmdesa": "AUTAKMA",
+    "kdsls": "0003",
+    "kdsubsls": "00",
+    "nmsls": "RT 003"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "004",
+    "nmdesa": "AUTAKMA",
+    "kdsls": "0004",
+    "kdsubsls": "00",
+    "nmsls": "RT 004"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "004",
+    "nmdesa": "AUTAKMA",
+    "kdsls": "0005",
+    "kdsubsls": "00",
+    "nmsls": "RT 005"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "004",
+    "nmdesa": "AUTAKMA",
+    "kdsls": "0006",
+    "kdsubsls": "00",
+    "nmsls": "RT 006"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "005",
+    "nmdesa": "SINAPUK",
+    "kdsls": "0001",
+    "kdsubsls": "01",
+    "nmsls": "RT 002 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "005",
+    "nmdesa": "SINAPUK",
+    "kdsls": "0001",
+    "kdsubsls": "02",
+    "nmsls": "RT 002 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "005",
+    "nmdesa": "SINAPUK",
+    "kdsls": "0002",
+    "kdsubsls": "00",
+    "nmsls": "RT 001 RW 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "005",
+    "nmdesa": "SINAPUK",
+    "kdsls": "0003",
+    "kdsubsls": "00",
+    "nmsls": "RT 003 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "005",
+    "nmdesa": "SINAPUK",
+    "kdsls": "0004",
+    "kdsubsls": "01",
+    "nmsls": "RT 004 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "005",
+    "nmdesa": "SINAPUK",
+    "kdsls": "0004",
+    "kdsubsls": "02",
+    "nmsls": "RT 004 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "005",
+    "nmdesa": "SINAPUK",
+    "kdsls": "0005",
+    "kdsubsls": "00",
+    "nmsls": "RT 004 RW 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "005",
+    "nmdesa": "SINAPUK",
+    "kdsls": "0006",
+    "kdsubsls": "00",
+    "nmsls": "RT 003 RW 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "005",
+    "nmdesa": "SINAPUK",
+    "kdsls": "0007",
+    "kdsubsls": "00",
+    "nmsls": "RT 002 RW 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "006",
+    "nmdesa": "SINAKMA",
+    "kdsls": "0001",
+    "kdsubsls": "00",
+    "nmsls": "RT 001 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "006",
+    "nmdesa": "SINAKMA",
+    "kdsls": "0002",
+    "kdsubsls": "00",
+    "nmsls": "RT 002 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "006",
+    "nmdesa": "SINAKMA",
+    "kdsls": "0003",
+    "kdsubsls": "00",
+    "nmsls": "RT 003 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "006",
+    "nmdesa": "SINAKMA",
+    "kdsls": "0004",
+    "kdsubsls": "00",
+    "nmsls": "RT 004 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "006",
+    "nmdesa": "SINAKMA",
+    "kdsls": "0005",
+    "kdsubsls": "00",
+    "nmsls": "RT 005 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "006",
+    "nmdesa": "SINAKMA",
+    "kdsls": "0006",
+    "kdsubsls": "00",
+    "nmsls": "RT 006 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "006",
+    "nmdesa": "SINAKMA",
+    "kdsls": "0007",
+    "kdsubsls": "00",
+    "nmsls": "RT 007 RW 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "006",
+    "nmdesa": "SINAKMA",
+    "kdsls": "0008",
+    "kdsubsls": "00",
+    "nmsls": "RT 001 RW 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "006",
+    "nmdesa": "SINAKMA",
+    "kdsls": "0009",
+    "kdsubsls": "00",
+    "nmsls": "RT 002 RW 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "006",
+    "nmdesa": "SINAKMA",
+    "kdsls": "0010",
+    "kdsubsls": "00",
+    "nmsls": "RT 003 RW 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "006",
+    "nmdesa": "SINAKMA",
+    "kdsls": "0011",
+    "kdsubsls": "00",
+    "nmsls": "RT 004 RW 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "006",
+    "nmdesa": "SINAKMA",
+    "kdsls": "0012",
+    "kdsubsls": "00",
+    "nmsls": "RT 005 RW 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "006",
+    "nmdesa": "SINAKMA",
+    "kdsls": "0013",
+    "kdsubsls": "00",
+    "nmsls": "RT 006 RW 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "006",
+    "nmdesa": "SINAKMA",
+    "kdsls": "0014",
+    "kdsubsls": "00",
+    "nmsls": "RT 007 RW 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "006",
+    "nmdesa": "SINAKMA",
+    "kdsls": "0015",
+    "kdsubsls": "00",
+    "nmsls": "RT 008 RW 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "007",
+    "nmdesa": "BATU MERAH",
+    "kdsls": "4001",
+    "kdsubsls": "00",
+    "nmsls": "RT 01"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "007",
+    "nmdesa": "BATU MERAH",
+    "kdsls": "4002",
+    "kdsubsls": "00",
+    "nmsls": "RT 02"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "007",
+    "nmdesa": "BATU MERAH",
+    "kdsls": "4003",
+    "kdsubsls": "00",
+    "nmsls": "RT 03"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "007",
+    "nmdesa": "BATU MERAH",
+    "kdsls": "4004",
+    "kdsubsls": "00",
+    "nmsls": "RT 04"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "007",
+    "nmdesa": "BATU MERAH",
+    "kdsls": "4005",
+    "kdsubsls": "00",
+    "nmsls": "RT 05"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "008",
+    "nmdesa": "HONELAMA II",
+    "kdsls": "0001",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN HONELAMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "008",
+    "nmdesa": "HONELAMA II",
+    "kdsls": "0002",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN LISANAIMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "008",
+    "nmdesa": "HONELAMA II",
+    "kdsls": "0003",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN WOLOWA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "008",
+    "nmdesa": "HONELAMA II",
+    "kdsls": "0004",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN HAWELAGAIMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "008",
+    "nmdesa": "HONELAMA II",
+    "kdsls": "0005",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN IALMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "008",
+    "nmdesa": "HONELAMA II",
+    "kdsls": "0006",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN POTIMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "009",
+    "nmdesa": "ONAIMA",
+    "kdsls": "0001",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN WOLOA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "009",
+    "nmdesa": "ONAIMA",
+    "kdsls": "0002",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN IRIGASI"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "009",
+    "nmdesa": "ONAIMA",
+    "kdsls": "0003",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN HONAIMA 1"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "009",
+    "nmdesa": "ONAIMA",
+    "kdsls": "0004",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN HONAIMA 11"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "010",
+    "nmdesa": "HONELAMA",
+    "kdsls": "0001",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN WOLOWA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "010",
+    "nmdesa": "HONELAMA",
+    "kdsls": "0002",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN YUKEMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "010",
+    "nmdesa": "HONELAMA",
+    "kdsls": "0003",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN HELOIMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "010",
+    "nmdesa": "HONELAMA",
+    "kdsls": "0004",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN SAKOWA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "010",
+    "nmdesa": "HONELAMA",
+    "kdsls": "0005",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN MONAIMA"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "010",
+    "nmdesa": "HONELAMA",
+    "kdsls": "0006",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN HOLESIMO"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "010",
+    "nmdesa": "HONELAMA",
+    "kdsls": "0007",
+    "kdsubsls": "00",
+    "nmsls": "DUSUN JELEAIMO"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "011",
+    "nmdesa": "HUREKAMA",
+    "kdsls": "0001",
+    "kdsubsls": "00",
+    "nmsls": "RT 001"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "011",
+    "nmdesa": "HUREKAMA",
+    "kdsls": "0002",
+    "kdsubsls": "00",
+    "nmsls": "RT 002"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "011",
+    "nmdesa": "HUREKAMA",
+    "kdsls": "0003",
+    "kdsubsls": "00",
+    "nmsls": "RT 003"
+  },
+  {
+    "kdkab": "02",
+    "kdkec": "010",
+    "nmkec": "WAMENA",
+    "kddesa": "011",
+    "nmdesa": "HUREKAMA",
+    "kdsls": "0004",
+    "kdsubsls": "00",
+    "nmsls": "RT 004"
+  }
+]

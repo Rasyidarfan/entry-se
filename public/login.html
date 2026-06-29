@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f47b20" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <title>Masuk — SENSUS EKONOMI 2026</title>
+  <link rel="stylesheet" href="/styles.css?v=10" />
+  <link rel="stylesheet" href="/data.css?v=10" />
+</head>
+<body class="login-bg">
+  <div class="login-card">
+    <div class="login-brand">
+      <span class="brand-mark big">F</span>
+      <div>
+        <div class="login-title">SENSUS EKONOMI 2026</div>
+        <div class="login-sub">Entri Kuesioner — BPS</div>
+      </div>
+    </div>
+
+    <form id="loginForm" class="login-form" autocomplete="on">
+      <label class="lf-label">Username
+        <input id="username" name="username" class="lf-input" required autofocus />
+      </label>
+      <label class="lf-label">Password
+        <input id="password" name="password" type="password" class="lf-input" required />
+      </label>
+      <div id="loginError" class="lf-error" hidden></div>
+      <button id="loginBtn" type="submit" class="lf-btn">Masuk</button>
+    </form>
+  </div>
+
+  <script src="/auth-client.js?v=10"></script>
+  <script>
+    // Already logged in → go straight to Data.
+    if (SE.getToken()) location.href = '/data.html';
+
+    const form = document.getElementById('loginForm');
+    const errBox = document.getElementById('loginError');
+    const btn = document.getElementById('loginBtn');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      errBox.hidden = true;
+      btn.disabled = true; btn.textContent = 'Memproses…';
+      try {
+        await SE.login(
+          document.getElementById('username').value.trim(),
+          document.getElementById('password').value
+        );
+        const next = new URLSearchParams(location.search).get('next');
+        location.href = next || '/data.html';
+      } catch (err) {
+        errBox.textContent = err.message || 'Login gagal';
+        errBox.hidden = false;
+        btn.disabled = false; btn.textContent = 'Masuk';
+      }
+    });
+  </script>
+</body>
+</html>

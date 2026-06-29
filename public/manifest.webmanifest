@@ -1,0 +1,10 @@
+{
+  "name": "Sensus Ekonomi 2026",
+  "short_name": "SE2026",
+  "start_url": "/respondent.html?v=10",
+  "display": "standalone",
+  "background_color": "#f4f5f6",
+  "theme_color": "#f47b20",
+  "description": "Aplikasi pendataan web Sensus Ekonomi 2026 dengan draft offline dan sinkronisasi chunk.",
+  "icons": []
+}

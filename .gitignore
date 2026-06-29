@@ -1,0 +1,10 @@
+node_modules/
+data/
+.env
+*.log
+.DS_Store
+__pycache__/
+*.py[cod]
+.claude/
+device_exports/backups/*/databases/
+device_exports/backups/*/extracted/

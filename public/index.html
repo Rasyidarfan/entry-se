@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f47b20" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <title>SENSUS EKONOMI 2026 — FormGear</title>
+  <link rel="stylesheet" href="/styles.css?v=10" />
+  <link rel="stylesheet" href="/data.css?v=10" />
+</head>
+<body>
+  <!-- Top application bar (FASIH chrome) -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <button class="sidebar-toggle" id="sidebarToggle" aria-label="Menu">☰</button>
+      <span class="brand-mark">F</span>
+      <a class="back-link" href="/data.html">‹ Data</a>
+      <span class="crumb-sep">/</span>
+      <span class="crumb">SENSUS EKONOMI 2026</span>
+      <span class="crumb-chip" id="surveyChip">SENSUS EKONOMI 2026</span>
+      <span class="crumb-sep">/</span>
+      <span class="crumb muted">PENDATAAN</span>
+      <span class="crumb-period" id="periodChip">09 Mei 2026 – 31 Agt 2026</span>
+    </div>
+    <div class="topbar-right">
+      <span id="userBadge" class="user-badge"></span>
+      <button id="logoutBtn" class="btn-ghost">Keluar</button>
+    </div>
+  </header>
+
+  <div id="sidebarOverlay" class="sidebar-overlay"></div>
+  <div class="layout">
+    <!-- Sidebar: block navigation -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-title" id="sidebarTitle">SENSUS EKONOMI 2026</div>
+      <nav id="blockNav" class="block-nav"></nav>
+      <div class="sidebar-foot">
+        <span>Pengaturan</span>
+        <span class="gear">⚙️</span>
+      </div>
+    </aside>
+
+    <!-- Main work area -->
+    <main class="main">
+      <div id="readonlyBanner" class="readonly-banner" hidden>
+        🔒 Mode baca-saja (mitra) — Anda hanya dapat melihat isian.
+      </div>
+      <div class="main-head">
+        <h1 id="surveyTitle">SENSUS EKONOMI 2026</h1>
+        <div class="head-actions">
+          <button id="saveBtn" class="btn-summary" hidden>💾 Simpan Draft</button>
+          <button id="submitBtn" class="btn-summary" hidden>✔ Submit</button>
+          <button id="summaryBtn" class="btn-summary">▤ Ringkasan</button>
+        </div>
+      </div>
+      <div id="saveStatus" class="save-status" hidden></div>
+
+      <div class="form-shell">
+        <section id="formCard" class="form-card">
+          <div class="loading">Memuat template &amp; validasi FormGear…</div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <!-- Bottom navigation bar -->
+  <footer class="bottombar">
+    <button id="prevBtn" class="nav-btn nav-prev" hidden>
+      <span class="nav-arrow">←</span>
+      <span class="nav-text"><small>SEBELUMNYA</small><strong id="prevLabel"></strong></span>
+    </button>
+    <div class="nav-center" id="centerLabel">PENGANTAR</div>
+    <button id="nextBtn" class="nav-btn nav-next">
+      <span class="nav-text right"><small>BERIKUTNYA</small><strong id="nextLabel"></strong></span>
+      <span class="nav-arrow">→</span>
+    </button>
+  </footer>
+
+  <!-- Summary modal -->
+  <div id="summaryModal" class="modal-backdrop" hidden>
+    <div class="modal">
+      <div class="modal-head">
+        <div>
+          <h2>Ringkasan</h2>
+          <p id="summaryCount" class="modal-sub">0 Jawaban</p>
+        </div>
+        <button id="modalClose" class="modal-close">✕</button>
+      </div>
+      <div class="summary-grid">
+        <div class="summary-tile tile-error">
+          <span class="tile-icon">⛔</span>
+          <div><div class="tile-label">GALAT</div><div class="tile-num" id="sumError">0</div><div class="tile-note">Perlu diperbaiki</div></div>
+        </div>
+        <div class="summary-tile tile-warn">
+          <span class="tile-icon">⚠️</span>
+          <div><div class="tile-label">PERINGATAN</div><div class="tile-num" id="sumWarn">0</div><div class="tile-note">Perlu ditinjau</div></div>
+        </div>
+        <div class="summary-tile tile-note">
+          <span class="tile-icon">💬</span>
+          <div><div class="tile-label">CATATAN</div><div class="tile-num" id="sumNote">0</div><div class="tile-note">Catatan aktif</div></div>
+        </div>
+        <div class="summary-tile tile-empty">
+          <span class="tile-icon">📄</span>
+          <div><div class="tile-label">KOSONG</div><div class="tile-num" id="sumEmpty">0</div><div class="tile-note">Belum diisi</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/auth-client.js?v=10"></script>
+  <script src="/pdf-rules.js?v=10"></script>
+  <script src="/engine.js?v=10"></script>
+  <script src="/app.js?v=10"></script>
+</body>
+</html>
